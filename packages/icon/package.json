@@ -1,0 +1,26 @@
+{
+  "name": "@vue3-ui/icon",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "gu12 <657286937@qq.com>",
+  "homepage": "https://github.com/xiaoxigua-web/vue3-ui#readme",
+  "license": "ISC",
+  "main": "lib/icon.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxigua-web/vue3-ui.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/xiaoxigua-web/vue3-ui/issues"
+  }
+}
