@@ -44,7 +44,7 @@ export default defineComponent({
     round: Boolean,
   },
 
-  emits: ["click"],
+  emits: ["click"],  //这里写了 click  外面想监听到这个事件必须通过emit触发
   setup(props, ctx) {
     const classs = computed(() => [
       "el-button",
@@ -57,7 +57,8 @@ export default defineComponent({
       },
     ]);
     const handleClick = (e) => {
-      ctx.emit("click", e);
+      console.log('innerclick')
+        ctx.emit("click", e);
     };
     return {
       classs,

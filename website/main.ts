@@ -2,7 +2,7 @@ import{ createApp } from 'vue'
 import App from './App.vue'
 
 import vue3Ui from 'vue3-ui'
-import "theme-chalk/src/index.scss"
+import "../packages/theme-chalk/src/index.scss"
 
 console.log(vue3Ui,'vue3-ui')
 
