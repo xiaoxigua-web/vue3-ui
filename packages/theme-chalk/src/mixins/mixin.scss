@@ -1,6 +1,10 @@
 @import "../common/var.scss";
 
 // .z-button{}
+// @include(button){
+//     red
+// }
+// =>el-button{red}
 @mixin b($block) {
     $B: $namespace+'-'+$block;
     .#{$B}{
